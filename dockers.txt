@@ -1,0 +1,2 @@
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                      NAMES
+00c92f297c3a        mongo               "docker-entrypoint.s…"   34 seconds ago      Up 33 seconds       0.0.0.0:27017->27017/tcp   unruffled_tesla
