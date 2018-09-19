@@ -48,7 +48,20 @@ public class MongoDB {
         document.put("Time", time);
         document.put("PageLoadElapsedTime", pageLoadElapsedTime);
 
-        ExtentReport.extentTest.log(Status.INFO, String.format("Add new record to Mongo database (%s)", title));
+        ExtentReport.extentTest.log(
+                Status.INFO,
+                String.format(
+                "Add new record to Mongo database:<br/>%s",
+                "Document{<br/>" +
+                        "   Title = title, <br/>".replace("title", title) +
+                        "   Description = description, <br/>".replace("description", description) +
+                        "   Language = language, <br/>".replace("language", language) +
+                        "   Stars = stars, <br/>".replace("stars", stars) +
+                        "   Tags = tags, <br/>".replace("tags", tags) +
+                        "   Time = time, <br/>".replace("time", time) +
+                        "   PageLoadElapsedTime = pageLoadElapsedTime, <br/>".replace("pageLoadElapsedTime", pageLoadElapsedTime) +
+                        "}"));
+
         collection.insertOne(document);
     }
 
@@ -66,7 +79,7 @@ public class MongoDB {
         String time = "";
         String pageLoadElapsedTime = "";
 
-        ExtentReport.extentTest.log(Status.INFO, "Read all DB record and add to HTML report");
+        ExtentReport.extentTest.log(Status.INFO, "Read all DB records and add to HTML report");
         for (Document doc : iterDoc) {
             for (Map.Entry<String, Object> entry : doc.entrySet()) {
                 if (entry.getKey().equals("Title"))
@@ -158,7 +171,7 @@ public class MongoDB {
     }
 
     private static void parseId(String output) throws InterruptedException, IOException {
-        ExtentReport.extentTest.log(Status.INFO, "Read Mongo id from command prompt...");
+        ExtentReport.extentTest.log(Status.INFO, "Read Mongo id");
 
         switch (OsCheck.getOperatingSystemType()) {
             case Windows:
