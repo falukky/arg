@@ -1,6 +1,8 @@
 package utils;
 
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoCredential;
 import com.mongodb.client.FindIterable;
@@ -10,6 +12,7 @@ import org.apache.commons.io.IOUtils;
 import org.bson.Document;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -34,11 +37,11 @@ public class MongoDB {
 
     public static void addRecord(String title, String description, String language, String stars, String tags, String time, String pageLoadElapsedTime) {
 
-        // Accessing the database
+        // Accessing the database.
         MongoDatabase database = mongo.getDatabase("myDb");
-
-        //database.createCollection("customers", null);
         MongoCollection<Document> collection = database.getCollection("searchresults");
+
+        // Create new record.
         Document document = new Document();
         document.put("Title", title);
         document.put("Description", description);
@@ -51,15 +54,15 @@ public class MongoDB {
         ExtentReport.extentTest.log(
                 Status.INFO,
                 String.format(
-                "Add new record to Mongo database:<br/>%s",
-                "Document{<br/>" +
-                        "   Title = title, <br/>".replace("title", title) +
-                        "   Description = description, <br/>".replace("description", description) +
-                        "   Language = language, <br/>".replace("language", language) +
-                        "   Stars = stars, <br/>".replace("stars", stars) +
-                        "   Tags = tags, <br/>".replace("tags", tags) +
-                        "   Time = time, <br/>".replace("time", time) +
-                        "   PageLoadElapsedTime = pageLoadElapsedTime, <br/>".replace("pageLoadElapsedTime", pageLoadElapsedTime) +
+                "<b>Add new record to Mongo database:</b><br/>%s",
+                "Document&nbsp{<br/>" +
+                        "&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTitle = title,<br/>".replace("title", title) +
+                        "&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDescription = description,<br/>".replace("description", description) +
+                        "&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLanguage = language,<br/>".replace("language", language) +
+                        "&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStars = stars,<br/>".replace("stars", stars) +
+                        "&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTags = tags,<br/>".replace("tags", tags) +
+                        "&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTime = time,<br/>".replace("time", time) +
+                        "&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPageLoadElapsedTime = pageLoadElapsedTime,<br/>".replace("pageLoadElapsedTime", pageLoadElapsedTime) +
                         "}"));
 
         collection.insertOne(document);
@@ -78,6 +81,10 @@ public class MongoDB {
         String tags = "";
         String time = "";
         String pageLoadElapsedTime = "";
+
+        List<String[]> table = new ArrayList<String[]>();
+        String[] columnsNames = {"<b>Title</b>", "<b>Description<b>", "<b>Language</b>", "<b>Stars</b>", "<b>Tags</b>", "<b>Time</b>", "<b>PageLoadElapsedTime</b>"};
+        table.add(columnsNames);
 
         ExtentReport.extentTest.log(Status.INFO, "Read all DB records and add to HTML report");
         for (Document doc : iterDoc) {
@@ -98,8 +105,16 @@ public class MongoDB {
                     pageLoadElapsedTime = entry.getValue().toString();
             }
 
-            createHtmlTable(title, description, language, stars, tags, time, pageLoadElapsedTime);
+            String[] current = {title, description, language, stars, tags, time, pageLoadElapsedTime};
+            table.add(current);
         }
+
+        String[][] data = {
+                {"Title", "Description", "Language", "Stars", "Tags", "Time", "PageLoadElapsedTime"},
+                {title, description, language, stars, tags, time, pageLoadElapsedTime}
+        };
+
+        ExtentReport.extentTest.info(MarkupHelper.createTable(table.toArray(data)));
     }
 
     private static void createHtmlTable(String title, String description, String language, String stars, String tags, String time, String pageLoadElapsedTime) {
