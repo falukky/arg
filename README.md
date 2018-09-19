@@ -1,4 +1,4 @@
 ## Prerequisites
 
-# Install Docker
+### Install Docker
 # Download Mongo image (via docker pull mongo command)
