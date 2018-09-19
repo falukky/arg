@@ -10,8 +10,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import utils.ExtentReport;
 import utils.MongoDB;
 import utils.Utils;
-
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,11 +21,11 @@ public class HomePage {
     }
 
     private WebElement searchTextBox() {
-        return Browser.webDriverWait30Sec().until(ExpectedConditions.visibilityOfElementLocated(By.name("q")));
+        return Browser.webDriverWait60Sec().until(ExpectedConditions.visibilityOfElementLocated(By.name("q")));
     }
 
     private List<WebElement> searchResults() {
-        return Browser.webDriverWait30Sec().until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("div.repo-list-item.d-flex.flex-column.flex-md-row.flex-justify-start.py-4.public.source")));
+        return Browser.webDriverWait60Sec().until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("div.repo-list-item.d-flex.flex-column.flex-md-row.flex-justify-start.py-4.public.source")));
     }
 
     private String getTags(WebElement webElement) {
@@ -92,16 +90,8 @@ public class HomePage {
         return element.getText();
     }
 
-    private WebElement getPageHeadElement() {
-        try {
-            return Browser.webDriverWait30Sec().until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.signup-prompt-bg.rounded-1")));
-        } catch (TimeoutException ex) {
-            return null;
-        }
-    }
-
     private WebElement nextPageLink() {
-        return Browser.webDriverWait30Sec().until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.next_page")));
+        return Browser.webDriverWait60Sec().until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.next_page")));
     }
 
     private boolean isNextPageExist() {
@@ -114,7 +104,11 @@ public class HomePage {
 
     private String getStars(WebElement webElement) {
 
-        return webElement.findElement(By.cssSelector("a.muted-link")).getText();
+        try {
+            return webElement.findElement(By.cssSelector("a.muted-link")).getText();
+        } catch (Exception ex) {
+            return "N/A";
+        }
     }
 
     public void goTo() {
@@ -128,6 +122,7 @@ public class HomePage {
         if (numberOfResults <= 0)
             throw new Exception(String.format("Number of results value need to be positive value and bigger then 0 (current value is %s)", numberOfResults));
 
+
         long start = System.currentTimeMillis();
         String query = Utils.getProperty("query");
 
@@ -135,7 +130,7 @@ public class HomePage {
         searchTextBox().sendKeys(query);
         searchTextBox().sendKeys(Keys.ENTER);
         ExtentReport.extentTest.log(Status.INFO, String.format("Search for '%s'", query));
-        ExtentReport.extentTest.log(Status.INFO,String.format("Take the first %s results...", numberOfResults));
+        ExtentReport.extentTest.log(Status.INFO, String.format("Take the first %s results...", numberOfResults));
 
         List<WebElement> results = searchResults();
         ExtentReport.extentTest.log(Status.INFO, String.format("Search return '%s' results at this page", results.size()));
@@ -178,8 +173,11 @@ public class HomePage {
             if (i == 10 && numberOfResults > 10) {
                 i = 0;
                 nextPageLink().click();
-                Thread.sleep(3000);
+
+                // Delay between pages.
+                Thread.sleep(Integer.parseInt(Utils.getProperty("delaybetweenpages")));
                 results = searchResults();
+                ExtentReport.extentTest.log(Status.INFO, String.format("Page number %s", handles / 10));
             }
         }
     }
@@ -194,7 +192,7 @@ public class HomePage {
         // Wait until page load.
         if (Browser.isPageLoad(href)) {
             // Page successfully load, stop measure time.
-            return Long.toString(System.currentTimeMillis() - start) + " (milliseconds)";
+            return Long.toString(System.currentTimeMillis() - start) + " milliseconds";
         } else {
             //Fail.
             return "BROKEN LINK";

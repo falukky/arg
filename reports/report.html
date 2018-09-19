@@ -46,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Sep 18, 2018 10:01:13 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Sep 19, 2018 12:29:27 PM</span>
 				</a>
 			</li>
 			<li>
@@ -137,10 +137,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='3.333%'><span class='strong'>1</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='4.348%'><span class='strong'>1</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='96.667%'>29</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='95.652%'>22</span> others
 				</div>
 			</div>
 		</div>
@@ -158,14 +158,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Setup</span>
-						<span class='test-time'>Sep 18, 2018 10:01:13 PM</span>
+						<span class='test-time'>Sep 19, 2018 12:29:27 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 18, 2018 10:01:13 PM</span>
-	<span class='label end-time'>Sep 18, 2018 10:01:29 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 15s+330ms</span>
+	<span class='label start-time'>Sep 19, 2018 12:29:27 PM</span>
+	<span class='label end-time'>Sep 19, 2018 12:29:45 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 18s+289ms</span>
 </div>
 	<div class='test-desc'>Initiate Mongo DB </div>
 	<div class='test-steps'>
@@ -180,22 +180,32 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:13 PM</td>
+					<td class='timestamp'>12:29:27 PM</td>
 					<td class='step-details'>Create and start Mongo DB from docker</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:28 PM</td>
+					<td class='timestamp'>12:29:27 PM</td>
+					<td class='step-details'>Read Mongo id from command prompt...</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:29:30 PM</td>
+					<td class='step-details'>Mongo docker id is 'bf5d0c399c6c'</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>12:29:45 PM</td>
 					<td class='step-details'>Try to connect to Mongo database...</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:29 PM</td>
+					<td class='timestamp'>12:29:45 PM</td>
 					<td class='step-details'>Successfully connected to Mongo database</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:29 PM</td>
+					<td class='timestamp'>12:29:45 PM</td>
 					<td class='step-details'>Open chromedriver browser</td>
 				</tr>
 			</tbody>
@@ -208,16 +218,16 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>Search</span>
-						<span class='test-time'>Sep 18, 2018 10:01:33 PM</span>
+						<span class='test-time'>Sep 19, 2018 12:29:49 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 18, 2018 10:01:33 PM</span>
-	<span class='label end-time'>Sep 18, 2018 10:01:48 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 15s+182ms</span>
+	<span class='label start-time'>Sep 19, 2018 12:29:49 PM</span>
+	<span class='label end-time'>Sep 19, 2018 12:29:58 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+947ms</span>
 </div>
-	<div class='test-desc'>Search inside GitHub </div>
+	<div class='test-desc'>This test Search inside GitHub web page for specific word and parse data from first N results </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
 			<thead>
@@ -230,67 +240,52 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:36 PM</td>
+					<td class='timestamp'>12:29:52 PM</td>
 					<td class='step-details'>Navigate to 'https://github.com/'</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:37 PM</td>
+					<td class='timestamp'>12:29:53 PM</td>
 					<td class='step-details'>Search for 'selenium'</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:37 PM</td>
-					<td class='step-details'>Take the first 7 results...</td>
+					<td class='timestamp'>12:29:53 PM</td>
+					<td class='step-details'>Take the first 3 results...</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:37 PM</td>
+					<td class='timestamp'>12:29:53 PM</td>
 					<td class='step-details'>Search return '10' results at this page</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:37 PM</td>
-					<td class='step-details'>Search query time takes 1497 milliseconds</td>
+					<td class='timestamp'>12:29:53 PM</td>
+					<td class='step-details'>Search query time takes 1338 milliseconds</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:39 PM</td>
-					<td class='step-details'>Add record to Mongo database</td>
+					<td class='timestamp'>12:29:55 PM</td>
+					<td class='step-details'>Add new record to Mongo database (SeleniumHQ/selenium)</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:40 PM</td>
-					<td class='step-details'>Add record to Mongo database</td>
+					<td class='timestamp'>12:29:56 PM</td>
+					<td class='step-details'>Add new record to Mongo database (robotframework/SeleniumLibrary)</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:42 PM</td>
-					<td class='step-details'>Add record to Mongo database</td>
+					<td class='timestamp'>12:29:58 PM</td>
+					<td class='step-details'>Add new record to Mongo database (SeleniumHQ/docker-selenium)</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:43 PM</td>
-					<td class='step-details'>Add record to Mongo database</td>
+					<td class='timestamp'>12:29:58 PM</td>
+					<td class='step-details'>Read all DB record and add to HTML report</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:45 PM</td>
-					<td class='step-details'>Add record to Mongo database</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:46 PM</td>
-					<td class='step-details'>Add record to Mongo database</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:48 PM</td>
-					<td class='step-details'>Add record to Mongo database</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:48 PM</td>
+					<td class='timestamp'>12:29:58 PM</td>
 					<td class='step-details'><table>
   <tr>
     <th>Title</th>
@@ -307,14 +302,14 @@
     <td>Java</td>
     <td>11.9k</td>
     <td>ruby, python, java, webdriver, selenium,</td>
-    <td>12 hours ago</td>
-    <td>1154 (milliseconds)</td>
+    <td>18 hours ago</td>
+    <td>1184 milliseconds</td>
   </tr>
 </table></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:48 PM</td>
+					<td class='timestamp'>12:29:58 PM</td>
 					<td class='step-details'><table>
   <tr>
     <th>Title</th>
@@ -331,14 +326,14 @@
     <td>Python</td>
     <td>590</td>
     <td>python, selenium, robotframework,</td>
-    <td>2 days ago</td>
-    <td>1168 (milliseconds)</td>
+    <td>3 days ago</td>
+    <td>1166 milliseconds</td>
   </tr>
 </table></td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:48 PM</td>
+					<td class='timestamp'>12:29:58 PM</td>
 					<td class='step-details'><table>
   <tr>
     <th>Title</th>
@@ -356,109 +351,13 @@
     <td>2.7k</td>
     <td>docker, webdriver, selenium, selenium-server, docker-selenium, selenium-grid, selenium-node,</td>
     <td>3 days ago</td>
-    <td>1151 (milliseconds)</td>
-  </tr>
-</table></td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:48 PM</td>
-					<td class='step-details'><table>
-  <tr>
-    <th>Title</th>
-    <th>Description</th>
-    <th>Language</th>
-    <th>Stars</th>
-    <th>Tags</th>
-    <th>Time</th>
-    <th>Load time</th>
-  </tr>
-  <tr>
-    <td>tebeka/selenium</td>
-    <td>Selenium/Webdriver client for Go</td>
-    <td>Go</td>
-    <td>466</td>
-    <td>N/A</td>
-    <td>5 days ago</td>
-    <td>1132 (milliseconds)</td>
-  </tr>
-</table></td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:48 PM</td>
-					<td class='step-details'><table>
-  <tr>
-    <th>Title</th>
-    <th>Description</th>
-    <th>Language</th>
-    <th>Stars</th>
-    <th>Tags</th>
-    <th>Time</th>
-    <th>Load time</th>
-  </tr>
-  <tr>
-    <td>watir/watir</td>
-    <td>Watir Powered By Selenium</td>
-    <td>Ruby</td>
-    <td>1.2k</td>
-    <td>N/A</td>
-    <td>11 hours ago</td>
-    <td>1139 (milliseconds)</td>
-  </tr>
-</table></td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:48 PM</td>
-					<td class='step-details'><table>
-  <tr>
-    <th>Title</th>
-    <th>Description</th>
-    <th>Language</th>
-    <th>Stars</th>
-    <th>Tags</th>
-    <th>Time</th>
-    <th>Load time</th>
-  </tr>
-  <tr>
-    <td>seleniumbase/SeleniumBase</td>
-    <td>All-In-One Test Automation Framework</td>
-    <td>Python</td>
-    <td>418</td>
-    <td>python, webdriver, test-runner, selenium, test-automation, pytest, test-framework, testing-tools, automated-testing,</td>
-    <td>7 days ago</td>
-    <td>1147 (milliseconds)</td>
-  </tr>
-</table></td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:48 PM</td>
-					<td class='step-details'><table>
-  <tr>
-    <th>Title</th>
-    <th>Description</th>
-    <th>Language</th>
-    <th>Stars</th>
-    <th>Tags</th>
-    <th>Time</th>
-    <th>Load time</th>
-  </tr>
-  <tr>
-    <td>baijum/selenium-python</td>
-    <td>Selenium Python Bindings Documentation</td>
-    <td>Python</td>
-    <td>432</td>
-    <td>python, webdriver, selenium, python3,</td>
-    <td>on Feb 16</td>
-    <td>1134 (milliseconds)</td>
+    <td>1147 milliseconds</td>
   </tr>
 </table></td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>10:01:48 PM</td>
+					<td class='timestamp'>12:29:58 PM</td>
 					<td class='step-details'>Test successfully passed</td>
 				</tr>
 			</tbody>
@@ -471,14 +370,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>Cleanup</span>
-						<span class='test-time'>Sep 18, 2018 10:01:48 PM</span>
+						<span class='test-time'>Sep 19, 2018 12:29:58 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 18, 2018 10:01:48 PM</span>
-	<span class='label end-time'>Sep 18, 2018 10:01:53 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+346ms</span>
+	<span class='label start-time'>Sep 19, 2018 12:29:58 PM</span>
+	<span class='label end-time'>Sep 19, 2018 12:30:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+349ms</span>
 </div>
 	<div class='test-desc'>Clean system </div>
 	<div class='test-steps'>
@@ -493,32 +392,22 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:48 PM</td>
+					<td class='timestamp'>12:29:58 PM</td>
 					<td class='step-details'>Close browser</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:50 PM</td>
+					<td class='timestamp'>12:30:00 PM</td>
 					<td class='step-details'>Clear Mongo database</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:50 PM</td>
-					<td class='step-details'>Try to read Mongo docker id...</td>
+					<td class='timestamp'>12:30:00 PM</td>
+					<td class='step-details'>Stop Mongo docker</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:50 PM</td>
-					<td class='step-details'>Read Mongo id from command prompt...</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:53 PM</td>
-					<td class='step-details'>Mongo docker id is '00c92f297c3a'</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:01:53 PM</td>
+					<td class='timestamp'>12:30:00 PM</td>
 					<td class='step-details'>Stop Mongo...</td>
 				</tr>
 			</tbody>
@@ -567,25 +456,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>30</div>
+					<div class='panel-lead'>23</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 18, 2018 10:01:13 PM</div>
+					<div class='panel-lead'>Sep 19, 2018 12:29:27 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 18, 2018 10:01:55 PM</div>
+			 		<div class='panel-lead'>Sep 19, 2018 12:30:02 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 42s+205ms</div>
+					<div class='panel-lead'>0h 0m 35s+603ms</div>
 				</div>
 			</div>
 		</div>
@@ -612,7 +501,7 @@
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 29,
+				infoChild: 22,
 				exceptionsChild: 0,
 				
 				passGrandChild: 0,

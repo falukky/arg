@@ -4,6 +4,7 @@ import com.aventstack.extentreports.Status;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -31,13 +32,13 @@ public class Browser {
 
     private static WebDriverWait webDriverWait60Sec;
 
-    public static WebDriverWait WebDriverWait60Sec() {
+    public static WebDriverWait webDriverWait60Sec() {
         return webDriverWait60Sec;
     }
 
     private static WebDriverWait webDriverWait120Sec;
 
-    public static WebDriverWait WebDriverWait120Sec() {
+    public static WebDriverWait webDriverWait120Sec() {
         return webDriverWait120Sec;
     }
 
@@ -94,8 +95,18 @@ public class Browser {
         }
 
         ExtentReport.extentTest.log(Status.INFO, String.format("Open %s browser", browserType));
-        if (browserType == BrowserType.Chrome)
-            driver = new ChromeDriver();
+        if (browserType == BrowserType.Chrome){
+            Boolean isheadless = Boolean.valueOf(Utils.getProperty("isheadless"));
+            if(isheadless)
+            {
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--headless");
+                chromeOptions.addArguments("--window-size=1920,1080");
+                driver = new ChromeDriver(chromeOptions);
+            }
+            else
+                driver = new ChromeDriver();
+        }
         else if (browserType == BrowserType.Firefox)
             driver = new FirefoxDriver();
 

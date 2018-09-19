@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import pages.Pages;
 import utils.ExtentReport;
 import utils.MongoDB;
+import utils.OsCheck;
 import utils.Utils;
 
 import java.io.*;
@@ -29,20 +30,20 @@ public class TestClass {
         if (result.getStatus() == ITestResult.FAILURE) {
             String testName = result.getName();
 
-            // Test fail, generate screenshot.
+            ExtentReport.extentTest.log(Status.INFO, "Test fail, generate screenshot");
             Browser.captureScreenshot(testName);
             ExtentReport.extentTest.addScreenCaptureFromPath(Utils.getCurrentRootLocation() + Utils.getScreenshotDirName() + testName + ".png");
             ExtentReport.extentTest.log(Status.FAIL, result.getThrowable());
-        }
+        } else
+            ExtentReport.extentTest.log(Status.PASS, "Test successfully passed");
     }
 
     @Test(priority = 1)
     public void search() throws Exception {
-        ExtentReport.extentTest = ExtentReport.extentReports.createTest("Search", "Search inside GitHub");
+        ExtentReport.extentTest = ExtentReport.extentReports.createTest("Search", "This test Search inside GitHub web page for specific word and parse data from first N results");
         Pages.HomePage().goTo();
         Pages.HomePage().search();
         MongoDB.addDbRecordsToReport();
-        ExtentReport.extentTest.log(Status.PASS, "Test successfully passed");
     }
 
     @AfterTest
@@ -51,7 +52,8 @@ public class TestClass {
         Browser.close();
         MongoDB.clearDB();
         MongoDB.stopMongo();
-        Utils.cmdKill();
+        if (OsCheck.getOperatingSystemType() == OsCheck.OSType.Windows)
+            Utils.cmdKill();
         ExtentReport.extentReports.flush();
     }
 }
