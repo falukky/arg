@@ -6,26 +6,18 @@
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dockers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dockers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/MongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MongoDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/browser/Browser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/browser/Browser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/browser/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/browser/Browser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/browser/BrowserType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/browser/BrowserType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Pages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ExtentReport$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ExtentReport$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ExtentReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ExtentReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/MongoDB$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/MongoDB$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/._report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopMongo.bat" beforeDir="false" afterPath="$PROJECT_DIR$/stopMongo.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/MongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/MongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/OsCheck$OSType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/OsCheck$OSType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/OsCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/OsCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Utils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Utils$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-09-18T22-01-12_273-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-09-19T17-18-06_033-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-09-19T17-18-06_033-jvmRun1.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/AllTests/regression.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AllTests/regression.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/AllTests/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AllTests/regression.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AllTests/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.TestClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.TestClass.xml" afterDir="false" />
@@ -33,8 +25,8 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/AllTests/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/AllTests/methods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/AllTests/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/AllTests/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestClass.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,7 +94,7 @@
     <session id="2052715679">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="2" />
@@ -111,15 +103,37 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1" />
-          <entry key="properties" value="11" />
+          <entry key="properties" value="13" />
           <entry key="xml" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1" />
-          <entry key="Properties" value="11" />
+          <entry key="Properties" value="13" />
           <entry key="XML" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="properties" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1145152744">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -130,6 +144,16 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="22" />
         </counts>
       </usages-collector>
     </session>
@@ -148,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/MongoDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3465">
-              <caret line="179" column="49" selection-start-line="179" selection-start-column="49" selection-end-line="179" selection-end-column="49" />
+            <state relative-caret-position="3045">
+              <caret line="159" column="22" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -157,8 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="42">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -166,11 +190,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-173">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="189">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
-                <element signature="n#properties#0;n#project#0;n#!!top" />
-                <element signature="n#build#0;n#project#0;n#!!top" />
                 <element signature="n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
@@ -256,21 +278,16 @@
         <subPane>
           <expand>
             <path>
-              <item name="arg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arg" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,9 +413,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15387674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.144334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -591,25 +607,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/MongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3465">
-          <caret line="179" column="49" selection-start-line="179" selection-start-column="49" selection-end-line="179" selection-end-column="49" />
+        <state relative-caret-position="3045">
+          <caret line="159" column="22" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="189">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
-            <element signature="n#properties#0;n#project#0;n#!!top" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
             <element signature="n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />

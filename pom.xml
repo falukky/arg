@@ -12,71 +12,20 @@
     </properties>
 
     <profiles>
+        <!-- Windows Profile-->
         <profile>
-            <id>platform-windows</id>
-            <activation>
-                <os>
-                    <family>windows</family>
-                </os>
-            </activation>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-compiler-plugin</artifactId>
-                        <version>3.8.0</version>
-                        <configuration>
-                            <fork>true</fork>
-                            <executable>C:\Program Files\Java\jdk1.8.0_181\bin\javac.exe</executable>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
+            <id>windows</id>
+            <properties>
+                <JAVA_1_8_HOME>C:\Program Files\Java\jdk1.8.0_181\bin\javac.exe</JAVA_1_8_HOME>
+            </properties>
         </profile>
 
+        <!-- Mac/Linux Profile-->
         <profile>
-            <id>mac</id>
-            <activation>
-                <os>
-                    <family>mac</family>
-                </os>
-            </activation>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-compiler-plugin</artifactId>
-                        <version>3.8.0</version>
-                        <configuration>
-                            <fork>true</fork>
-                            <executable>/usr/bin/javac</executable>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-
-        <profile>
-            <id>unix</id>
-            <activation>
-                <os>
-                    <family>unix</family>
-                    <name>Linux</name>
-                </os>
-            </activation>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-compiler-plugin</artifactId>
-                        <version>3.8.0</version>
-                        <configuration>
-                            <fork>true</fork>
-                            <executable>/usr/bin/javac</executable>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
+            <id>linux</id>
+            <properties>
+                <JAVA_1_8_HOME>/usr/bin/javac</JAVA_1_8_HOME>
+            </properties>
         </profile>
     </profiles>
 
@@ -144,4 +93,5 @@
             <version>2.4</version>
         </dependency>
     </dependencies>
+
 </project>
