@@ -178,7 +178,6 @@ public class MongoDB {
                     stringBuffer.append(line);
                 Thread.sleep(3000);
                 parseId(stringBuffer.toString());
-                System.out.println("Docker id is: " + id);
                 break;
         }
 

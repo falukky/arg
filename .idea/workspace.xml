@@ -6,17 +6,35 @@
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dockers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dockers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stopMongo.bat" beforeDir="false" afterPath="$PROJECT_DIR$/stopMongo.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/drivers/linux/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/drivers/linux/geckodriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/drivers/mac/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/drivers/mac/geckodriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/drivers/windows/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/drivers/windows/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/MongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MongoDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browser/Browser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/browser/Browser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browser/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/browser/Browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browser/BrowserType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/browser/BrowserType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Pages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ExtentReport$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ExtentReport$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ExtentReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ExtentReport.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/MongoDB$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/MongoDB$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/MongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/MongoDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/OsCheck$OSType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/OsCheck$OSType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/OsCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/OsCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Utils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Utils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-09-18T22-01-12_273-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AllTests/regression.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AllTests/regression.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AllTests/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AllTests/regression.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.TestClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.TestClass.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/AllTests/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/AllTests/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/AllTests/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/AllTests/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/AllTests/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/AllTests/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestClass.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,20 +102,24 @@
     <session id="2052715679">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="properties" value="8" />
-          <entry key="xml" value="39" />
+          <entry key="java" value="1" />
+          <entry key="properties" value="11" />
+          <entry key="xml" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Properties" value="8" />
-          <entry key="XML" value="39" />
+          <entry key="JAVA" value="1" />
+          <entry key="Properties" value="11" />
+          <entry key="XML" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -126,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/MongoDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="116" column="57" selection-start-line="116" selection-start-column="57" selection-end-line="116" selection-end-column="57" />
+            <state relative-caret-position="3465">
+              <caret line="179" column="49" selection-start-line="179" selection-start-column="49" selection-end-line="179" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -135,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="63">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -144,9 +166,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+            <state relative-caret-position="-173">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding>
+                <element signature="n#properties#0;n#project#0;n#!!top" />
+                <element signature="n#build#0;n#project#0;n#!!top" />
                 <element signature="n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
@@ -187,6 +211,7 @@
       <find>webDriverWait30Sec</find>
       <find>Add record to Mongo database</find>
       <find>id is</find>
+      <find>Docker</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,9 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,10 +268,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537402594268" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537403140558" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -373,7 +398,7 @@
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1526839" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15387674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -382,7 +407,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23790951" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23790951" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31045243" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -498,14 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,9 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,9 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,23 +591,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/MongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="116" column="57" selection-start-line="116" selection-start-column="57" selection-end-line="116" selection-end-column="57" />
+        <state relative-caret-position="3465">
+          <caret line="179" column="49" selection-start-line="179" selection-start-column="49" selection-end-line="179" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="63">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+        <state relative-caret-position="-173">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding>
+            <element signature="n#properties#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
             <element signature="n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
