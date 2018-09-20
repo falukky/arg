@@ -1,2 +1,1 @@
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                      NAMES
-bf5d0c399c6c        mongo               "docker-entrypoint.s…"   5 minutes ago       Up 5 minutes        0.0.0.0:27017->27017/tcp   quirky_chebyshev
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
